@@ -1,0 +1,12 @@
+name: chocolatey-rundeck
+version: 0.1.0
+rundeckPluginVersion: 0.1.0
+author: Stephen Valdinger
+date: 2021-05-03
+url: https://github.com/steviecoaster/rundeck-chocolatey
+providers:
+  - name: Chocolatey
+    service: NodeExecutor
+    plugin-type: script
+    script-file: ["Install-ChocolateyPackage.ps1","Upgrade-ChocolateyPackage.ps1","Uninstall-ChocolateyPackage.ps1","Get-ChocolateyConfig.ps1", "Set-ChocolateyConfig.ps1","Get-ChocolateyFeature.ps1","Set-ChocolateyFeature.ps1"]
+  
