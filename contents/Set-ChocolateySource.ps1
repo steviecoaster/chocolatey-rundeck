@@ -139,3 +139,4 @@ function Set-ChocolateySource {
             }
         }
     }
+}
